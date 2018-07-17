@@ -1,0 +1,49 @@
+@import "compass/css3";
+*{
+  margin: 0;
+  padding: 0;
+  @include box-sizing(border-box);
+  ::after,::before{
+    @include box-sizing(border-box);
+  }
+}
+a{
+  text-decoration: none;
+  color: #878787;
+  :hover{
+    color: #2b4965;
+  }
+  :active{
+    color: #2b4965;
+  }
+}
+ol,ul,li{
+  list-style: none;
+  list-style-type: none;
+}
+body{
+  color: #2b4965;
+  background: #f0f2f5;
+  font-size: 14px;
+  font-family: microsoft yahei,tohoma,arial,\5b8b\4f53,sans-serif;
+  line-height: 1.428;
+  overflow-x: hidden;
+}
+.clearfix{
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.float-right{
+  float: right;
+}
+.float-left{
+  float: left;
+}

@@ -1,0 +1,106 @@
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+input[type="password"]{
+  width: 100%;
+  height: 40px;
+  line-height: 40px\9;
+  _line-height: 40px;
+  @include border-radius(4px);
+  border: 2px solid #e3e4e8;
+  color: #2f2f2f;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: .5em;
+  font-family: 'microsoft yahei';
+}
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus{
+  border-color: #8cc152;
+  outline: 0;
+  color: #2f2f2f;
+}
+input[disabled]{
+  cursor: not-allow;
+  background-color: #f6f6f6;
+}
+input[type="search"].error,
+input[type="text"].error,
+input[type="password"].error,
+input[type="email"].error,
+input[type="number"].error,
+input[type="tel"].error{
+  color: #c22d31;
+}
+input[type="text"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder {
+  color: #ccc;
+}
+input[type="text"]:-ms-input-placeholder,
+input[type="tel"]:-ms-input-placeholder,
+input[type="number"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder {
+  color: #ccc;
+}
+input[type="text"]::-moz-placeholder,
+input[type="tel"]::-moz-placeholder,
+input[type="number"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder {
+  color: #ccc;
+}
+.input-danger, .input-checked, .input-error {
+  position: relative;
+}
+.input-danger span, .input-checked span, .input-error span {
+  width: 36px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.input-danger span {
+  background-position: -19px 10px;
+}
+.input-error input, .input-error textarea {
+  border-color: #ff0000;
+  outline: 0;
+  color: #2f2f2f;
+}
+.input-error input:focus, .input-error textarea:focus {
+  border-color: #ff0000;
+  outline: #ff0000;
+  color: #2f2f2f;
+}
+.input-error span {
+  background-position: -45px 10px;
+}
+.input-checked input, .input-checked textarea {
+  border-color: #8cc152;
+  outline: 0;
+  color: #2f2f2f;
+}
+.input-checked input:focus, .input-checked textarea:focus {
+  border-color: #8cc152;
+  outline: 0;
+  color: #2f2f2f;
+}
+.input-checked span {
+  background-position: 8px 10px;
+}
+button[type="submit"],
+input[type="submit"],
+input[type="reset"],
+button[type="reset"] {
+  font-family: microsoft yahei;
+}

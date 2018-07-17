@@ -1,0 +1,40 @@
+.btn{
+  color: #fff;
+  background: #155b9c;
+  font-size: 15px;
+  padding: 8px 14px;
+  border: 0;
+  cursor: pointer;
+  @include appearance(none);
+  position: relative;
+  margin-right: 9px;
+  display: inline-block;
+  vertical-align: middle;
+  @include border-radius(4px);
+  @include box-shadow(0 3px 0 #0a3e70);
+  line-height: 1.428;
+  margin-bottom: 9px;
+  font-family: "microsoft yahei";
+  :focus{
+    border: 0;
+    outline: 0;
+    color: #fff;
+  }
+  :hover{
+    background: #155897;
+    color: #ffffff;
+  }
+  :active{
+    border: 0;
+    outline: 0;
+    background: #145693;
+    color: #ffffff;
+    top: 1px;
+    @include box-shadow(0 2px 0 #0a3e70);
+  }
+  .disablea{
+    color: #666;
+    background: #f3f3f3;
+    @include box-shadow(0 3px 0 #f3f3f3);
+  }
+}
