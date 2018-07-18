@@ -1,0 +1,77 @@
+.index-head{
+  //height: 236px;
+  overflow: hidden;
+  background: url("../img/line.png") no-repeat center #fff;
+
+  .topnav{
+    height: 45px;
+    line-height: 45px;
+    color: #2da158;
+    p{
+      float: right;
+      overflow: hidden;
+      a{
+        display: inline-block;
+        margin-left: 20px;
+        padding-left: 20px;
+        float: left;
+        color: #2da158;
+      }
+      :hover{
+        text-decoration: underline;
+      }
+      .a1{
+        background: url("../img/top_nl1.png") no-repeat left center;
+      }
+      .a2{
+        background: url("../img/top_nl2.png") no-repeat left center;
+      }
+      .a3{
+        background: url("../img/top_nl3.png") no-repeat left center;
+      }
+    }
+  }
+
+  .toplogo{
+    height: 116px;
+    position: relative;
+    padding-top: 30px;
+    div{
+      display: inline-block;
+      float: left;
+    }
+    .sgg{
+      margin-left: 80px;
+      margin-top: 14px;
+      img{
+        width: 120%;
+      }
+    }
+    .phone{
+      float: right;
+      margin-left: 75px;
+    }
+  }
+  nav{
+    height: 40px;
+    .ul{
+      overflow: hidden;
+      height: 40px;
+      .li{
+        float: left;
+        width: 180px;
+        height: 40px;
+        line-height: 40px;
+        a{
+          display: block;
+          width: 180px;
+          height: 40px;
+          line-height: 40px;
+          font-size: 14px;
+          text-align: center;
+          color: #535353;
+        }
+      }
+    }
+  }
+}

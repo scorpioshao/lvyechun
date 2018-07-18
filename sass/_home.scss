@@ -9,7 +9,7 @@
 }
 a{
   text-decoration: none;
-  color: #878787;
+  color: #000;
   :hover{
     color: #2b4965;
   }
@@ -46,4 +46,8 @@ body{
 }
 .float-left{
   float: left;
+}
+.container{
+  width: 1080px;
+  margin: 0 auto;
 }

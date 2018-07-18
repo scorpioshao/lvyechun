@@ -16,7 +16,7 @@
 /* line 10, ../sass/_home.scss */
 a {
   text-decoration: none;
-  color: #878787;
+  color: #000;
 }
 /* line 13, ../sass/_home.scss */
 a :hover {
@@ -69,6 +69,12 @@ body {
 /* line 47, ../sass/_home.scss */
 .float-left {
   float: left;
+}
+
+/* line 50, ../sass/_home.scss */
+.container {
+  width: 1080px;
+  margin: 0 auto;
 }
 
 /* line 1, ../sass/dpl/_text.scss */
@@ -362,4 +368,136 @@ button[type="reset"] {
   -moz-box-shadow: 0 3px 0 #f3f3f3;
   -webkit-box-shadow: 0 3px 0 #f3f3f3;
   box-shadow: 0 3px 0 #f3f3f3;
+}
+
+/* line 1, ../sass/_head.scss */
+.index-head {
+  overflow: hidden;
+  background: url("../img/line.png") no-repeat center #fff;
+}
+/* line 6, ../sass/_head.scss */
+.index-head .topnav {
+  height: 45px;
+  line-height: 45px;
+  color: #2da158;
+}
+/* line 10, ../sass/_head.scss */
+.index-head .topnav p {
+  float: right;
+  overflow: hidden;
+}
+/* line 13, ../sass/_head.scss */
+.index-head .topnav p a {
+  display: inline-block;
+  margin-left: 20px;
+  padding-left: 20px;
+  float: left;
+  color: #2da158;
+}
+/* line 20, ../sass/_head.scss */
+.index-head .topnav p :hover {
+  text-decoration: underline;
+}
+/* line 23, ../sass/_head.scss */
+.index-head .topnav p .a1 {
+  background: url("../img/top_nl1.png") no-repeat left center;
+}
+/* line 26, ../sass/_head.scss */
+.index-head .topnav p .a2 {
+  background: url("../img/top_nl2.png") no-repeat left center;
+}
+/* line 29, ../sass/_head.scss */
+.index-head .topnav p .a3 {
+  background: url("../img/top_nl3.png") no-repeat left center;
+}
+/* line 35, ../sass/_head.scss */
+.index-head .toplogo {
+  height: 116px;
+  position: relative;
+  padding-top: 30px;
+}
+/* line 39, ../sass/_head.scss */
+.index-head .toplogo div {
+  display: inline-block;
+  float: left;
+}
+/* line 43, ../sass/_head.scss */
+.index-head .toplogo .sgg {
+  margin-left: 80px;
+  margin-top: 14px;
+}
+/* line 46, ../sass/_head.scss */
+.index-head .toplogo .sgg img {
+  width: 120%;
+}
+/* line 50, ../sass/_head.scss */
+.index-head .toplogo .phone {
+  float: right;
+  margin-left: 75px;
+}
+/* line 55, ../sass/_head.scss */
+.index-head nav {
+  height: 40px;
+}
+/* line 57, ../sass/_head.scss */
+.index-head nav .ul {
+  overflow: hidden;
+  height: 40px;
+}
+/* line 60, ../sass/_head.scss */
+.index-head nav .ul .li {
+  float: left;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+}
+/* line 65, ../sass/_head.scss */
+.index-head nav .ul .li a {
+  display: block;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+  color: #535353;
+}
+
+/* line 1, ../sass/_foot.scss */
+footer {
+  padding-top: 30px;
+  height: 250px;
+  background: url("../img/bottom_lbg.jpg") no-repeat top center;
+}
+/* line 5, ../sass/_foot.scss */
+footer .botlogo {
+  height: 165px;
+}
+/* line 7, ../sass/_foot.scss */
+footer .botlogo .logo {
+  padding-left: 30px;
+  margin-top: 26px;
+  float: left;
+  width: 140px;
+  height: 134px;
+}
+/* line 14, ../sass/_foot.scss */
+footer .botlogo ul {
+  float: left;
+  width: 575px;
+  margin: 40px 0 0 95px;
+}
+/* line 18, ../sass/_foot.scss */
+footer .botlogo ul li {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+/* line 22, ../sass/_foot.scss */
+footer .botlogo ul li b {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+  color: #c79c72;
+  font-size: 12px;
+  font-weight: normal;
 }

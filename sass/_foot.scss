@@ -1,0 +1,33 @@
+footer{
+  padding-top: 30px;
+  height: 250px;
+  background: url("../img/bottom_lbg.jpg") no-repeat top center;
+  .botlogo{
+    height: 165px;
+    .logo{
+      padding-left: 30px;
+      margin-top: 26px;
+      float: left;
+      width: 140px;
+      height: 134px;
+    }
+    ul{
+      float: left;
+      width: 575px;
+      margin: 40px 0 0 95px;
+      li{
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        b{
+          display: inline-block;
+          float: left;
+          margin-right: 20px;
+          color: #c79c72;
+          font-size: 12px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}
